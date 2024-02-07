@@ -1,6 +1,25 @@
-head{
-    color: red;
-    .logo{
-        margin: 600px;
+/* リセットCSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ここまでリセットCSS */
+
+$background-color: red;
+
+
+body {
+    background-color: $background-color;
+    color: black;
+    text-align: center;
+}
+
+.navi {
+    li {
+        display: inline
     }
+    // &-menu{
+    // }
 }

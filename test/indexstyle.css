@@ -1,6 +1,18 @@
-head {
-  color: red;
+@charset "UTF-8";
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-head .logo {
-  margin: 600px;
+
+/* ここまでリセットCSS */
+body {
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+.navi li {
+  display: inline;
 }/*# sourceMappingURL=indexstyle.css.map */
