@@ -1,18 +1,32 @@
 @charset "UTF-8";
 /* リセットCSS */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 /* ここまでリセットCSS */
-body {
-  background-color: red;
+main {
+  background-color: #2DA864;
   color: black;
   text-align: center;
 }
+main .frame {
+  background-color: #2DA864;
+  margin: 5%;
+  padding: 5%;
+}
 
-.navi li {
-  display: inline;
+.navi-menu {
+  display: flex;
+}
+.navi-menu .btn {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  margin: 2%;
+  padding: 3%;
+  border-radius: 10px;
+  background-color: yellow;
 }/*# sourceMappingURL=indexstyle.css.map */

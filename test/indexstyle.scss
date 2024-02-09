@@ -1,25 +1,40 @@
 /* リセットCSS */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 /* ここまでリセットCSS */
 
-$background-color: red;
+$background-white: white;
+$background-green: #2DA864;
 
-
-body {
-    background-color: $background-color;
+main {
+    background-color: $background-green;
     color: black;
     text-align: center;
+
+    .frame {
+        background-color: $background-green;
+        margin: 5%;
+        padding: 5%;
+    }
 }
 
 .navi {
-    li {
-        display: inline
+    
+    &-menu {
+        display: flex;
+
+        .btn {
+            display: flex;
+            justify-content: space-around;
+            width: 150px;
+            margin: 2%;
+            padding: 3%;
+            border-radius: 10px;
+            background-color: yellow;
+        }
     }
-    // &-menu{
-    // }
 }
