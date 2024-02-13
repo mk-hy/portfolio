@@ -6,18 +6,30 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ここまでリセットCSS */
 main {
   background-color: #2DA864;
   color: black;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 5%;
+}
+main .com {
+  margin: 2%;
 }
 main .frame {
   background-color: white;
   margin: 5%;
   padding: 5%;
   border-radius: 15px;
+}
+
+.yellow {
+  color: yellow;
 }
 
 .navi-menu {
@@ -44,4 +56,59 @@ main .frame {
   padding: 15%;
   border-radius: 15px;
   font-size: 15px;
+}
+
+.card_main {
+  display: flex;
+}
+.card_main .card {
+  width: 50%;
+}
+.card_main .card_img {
+  max-width: 80%;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card_main .about {
+  width: 50%;
+}
+.card_main .about_img {
+  max-width: 50%;
+  padding-left: 30%;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.staring {
+  max-width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.staring h3 {
+  margin: 4%;
+}
+.staring hr {
+  margin: 3%;
+}
+.staring_about {
+  max-width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 20%;
+}
+.staring_about h3 {
+  margin: 4%;
+}
+
+.about_last {
+  margin: 2%;
+}
+
+footer {
+  background-color: #2DA864;
+  text-align: center;
 }/*# sourceMappingURL=indexstyle.css.map */
