@@ -104,11 +104,78 @@ main .frame {
   margin: 4%;
 }
 
+hr {
+  margin: 3%;
+}
+
 .about_last {
   margin: 2%;
+}
+
+.top_img {
+  max-width: 30px;
 }
 
 footer {
   background-color: #2DA864;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  main .navi-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  main .navi-menu .btn {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: 2%;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid green;
+  }
+  main .navi-menu .btn :active {
+    color: yellow;
+    background-color: green;
+  }
+  main .navi-menu .btn a {
+    color: black;
+    width: 150px;
+    padding: 15%;
+    border-radius: 15px;
+    font-size: 15px;
+  }
+  main .card_main {
+    display: block;
+  }
+  main .card_main .card_img {
+    max-width: 200%;
+    margin-top: 8%;
+  }
+  main .card_main .about {
+    width: 50%;
+  }
+  main .card_main .about_img {
+    max-width: 140%;
+    margin-top: 8%;
+  }
+  main .staring {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 200%;
+  }
+  main .staring h3 {
+    margin: 4%;
+  }
+  main .staring_com {
+    max-width: 200%;
+  }
+  main .staring_about {
+    margin-top: 5%;
+  }
+  main .staring_about h3 {
+    margin: 4%;
+  }
 }/*# sourceMappingURL=indexstyle.css.map */
